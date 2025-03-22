@@ -1,4 +1,6 @@
-from selenium.webdriver.common.by import By
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from resources.locators.homePage_locator import HomePage_Locator
 
 class HomePage:
